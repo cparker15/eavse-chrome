@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Chrome Narrator",
-  "description": "Let Chrome read to you.",
+  "name": "Eavse for Chrome",
+  "description": "Read the Web with ease.",
   "version": "0.1",
 
   "browser_action": {
