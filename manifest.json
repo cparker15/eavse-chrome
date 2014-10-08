@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Narrator",
+  "description": "Let Chrome read to you.",
+  "version": "0.1",
+
+  "browser_action": {
+  },
+
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content_script.js"]
+    }
+  ],
+
+  "permissions": [
+     "tabs", "tts"
+  ]
+}
